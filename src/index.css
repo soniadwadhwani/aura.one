@@ -1,0 +1,38 @@
+:root {
+  --color-primary: #81BFEE;
+  --color-secondary: #104E7E;
+  --color-accent: #F68B2C;
+  --color-background: #F1F7F8;
+  --color-text: #111618;
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+  --color-info: #3B82F6;
+  --color-muted: #64748B;
+
+  --font-heading: 'Raleway', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --radius-sm: 20px;
+  --radius-md: 24px;
+  --radius-lg: 32px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
